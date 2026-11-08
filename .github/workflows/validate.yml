@@ -13,6 +13,14 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - name: Install the test tools (dev only, nothing is shipped from them)
+        run: npm ci
+      - name: Dependency audit
+        run: npm audit --audit-level=high
       - name: Install xmllint
         run: sudo apt-get update && sudo apt-get install -y libxml2-utils
       - name: SVGs are well-formed XML
@@ -31,7 +39,7 @@ jobs:
           fi
       - name: Manifest matches the icons
         run: node scripts/validate-manifest.mjs
-      - name: Package generator tests
-        run: node --test scripts/packages/*.test.mjs
+      - name: Package tests (generator, real React and Vue rendering, tree-shaking)
+        run: npm test
       - name: Every icon can be built into the React and Vue packages
         run: node scripts/packages/build.mjs

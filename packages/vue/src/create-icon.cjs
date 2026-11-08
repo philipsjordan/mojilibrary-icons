@@ -18,6 +18,9 @@ function createIcon(name, nodes) {
     setup(props, { attrs }) {
       return () => {
         const labelled = Boolean(props.title || attrs['aria-label'] || attrs['aria-labelledby']);
+        // The <title> is added only when there is one: an empty slot would leave a comment node inside the svg.
+        const children = nodes.map(renderNode);
+        if (props.title) children.unshift(h('title', props.title));
         return h(
           'svg',
           {
@@ -33,7 +36,7 @@ function createIcon(name, nodes) {
             role: labelled ? 'img' : undefined,
             'aria-hidden': labelled ? undefined : 'true',
           },
-          [props.title ? h('title', props.title) : null, ...nodes.map(renderNode)],
+          children,
         );
       };
     },
