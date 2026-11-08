@@ -11,5 +11,12 @@
   },
   "engines": {
     "node": ">=22"
+  },
+  "devDependencies": {
+    "@vue/server-renderer": "3.5.45",
+    "esbuild": "0.28.2",
+    "react": "19.3.1",
+    "react-dom": "19.3.1",
+    "vue": "3.5.45"
   }
 }
