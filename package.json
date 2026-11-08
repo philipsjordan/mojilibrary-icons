@@ -1,0 +1,15 @@
+{
+  "name": "mojilibrary-icons",
+  "private": true,
+  "type": "module",
+  "description": "Moji icons: the SVGs, the manifest and the generator for the React and Vue packages.",
+  "license": "MIT",
+  "scripts": {
+    "validate": "node scripts/validate-manifest.mjs",
+    "build:packages": "node scripts/packages/build.mjs",
+    "test": "node --test scripts/packages/*.test.mjs"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
