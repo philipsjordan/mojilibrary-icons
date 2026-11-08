@@ -1,8 +1,8 @@
-# roooks-icons
+# Moji icons
 
 An open-source icon set with one cohesive style. The free rounded outline set is MIT licensed.
 
-> Work in progress. Internal beta planned for 1 November 2026. The name is a placeholder until launch.
+> Beta. Browse, customise and copy the icons at [mojilibrary.com](https://mojilibrary.com). The set is still growing.
 
 ## Contents
 
