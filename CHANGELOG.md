@@ -9,11 +9,11 @@ All notable changes to the icon set. One version for the whole library, followin
 ### Added (50)
 
 - Boolean: `union`, `subtract`, `intersect`, `exclude`, `flatten`
-- Paths and anchors: `pen-path`, `node-select`, `bezier-curve`, `vector`, `anchor-handles`, `anchor-add`, `anchor-remove`
+- Paths and anchors: `pen-path`, `node-select`, `vector`, `anchor-handles`, `anchor-add`, `anchor-remove`
 - Easing: `ease-linear`, `ease-in`, `ease-out`, `ease-in-out`
 - Effects: `gradient`, `contrast`, `opacity`, `blur`, `motion-blur`, `mask`
 - Image adjustments: `brightness`, `saturation`, `hue`, `curves`
-- Colour and paint: `color-swatch`, `palette`, `paint-bucket`, `paintbrush`, `eye-dropper`
+- Colour and paint: `color-swatch`, `palette`, `paint-bucket`, `paintbrush`, `paintbrush-sparkle`, `eye-dropper`
 - Canvas and layout: `frame`, `frame-plus`, `zoom-fit`, `wireframe`, `pixel-grid`, `collage`, `theme`, `screen-cursor`
 - Drawing and measuring: `set-square`, `compass`, `pencil-ruler`, `measure-horizontal`, `measure-vertical`, `angle`, `hatch`
 - Selection and transform: `lasso`, `warp`

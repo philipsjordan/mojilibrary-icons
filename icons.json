@@ -1998,25 +1998,6 @@
       "added": "0.1.0"
     },
     {
-      "name": "bezier-curve",
-      "displayName": "Bezier Curve",
-      "category": "design",
-      "tags": [],
-      "aliases": [
-        "bezier",
-        "curve-path"
-      ],
-      "keywords": [
-        "bezier",
-        "curve",
-        "path",
-        "anchor",
-        "vector"
-      ],
-      "file": "bezier-curve.svg",
-      "added": "0.5.0"
-    },
-    {
       "name": "bike",
       "displayName": "Bike",
       "category": "transport",
@@ -14218,6 +14199,27 @@
         "color"
       ],
       "file": "paintbrush.svg",
+      "added": "0.5.0"
+    },
+    {
+      "name": "paintbrush-sparkle",
+      "displayName": "Paintbrush Sparkle",
+      "category": "design",
+      "tags": [],
+      "aliases": [
+        "ai-brush",
+        "magic-brush"
+      ],
+      "keywords": [
+        "paintbrush",
+        "sparkle",
+        "ai",
+        "magic",
+        "paint",
+        "generate",
+        "art"
+      ],
+      "file": "paintbrush-sparkle.svg",
       "added": "0.5.0"
     },
     {
