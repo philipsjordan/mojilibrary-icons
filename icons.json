@@ -1,10 +1,11 @@
 {
-  "version": "0.4.1",
+  "version": "0.5.0",
   "releases": {
     "0.1.0": "2026-10-01",
     "0.2.0": "2026-10-03",
     "0.3.0": "2026-10-05",
-    "0.4.0": "2026-10-22"
+    "0.4.0": "2026-10-22",
+    "0.5.0": "2026-11-08"
   },
   "icons": [
     {
@@ -338,6 +339,87 @@
       ],
       "file": "anchor.svg",
       "added": "0.1.0"
+    },
+    {
+      "name": "anchor-add",
+      "displayName": "Anchor Add",
+      "category": "design",
+      "tags": [],
+      "aliases": [
+        "add-anchor",
+        "add-point"
+      ],
+      "keywords": [
+        "anchor",
+        "add",
+        "point",
+        "node",
+        "bezier",
+        "plus",
+        "path"
+      ],
+      "file": "anchor-add.svg",
+      "added": "0.5.0"
+    },
+    {
+      "name": "anchor-handles",
+      "displayName": "Anchor Handles",
+      "category": "design",
+      "tags": [],
+      "aliases": [
+        "bezier-handles",
+        "control-handles"
+      ],
+      "keywords": [
+        "anchor",
+        "handles",
+        "bezier",
+        "control points",
+        "vector",
+        "path"
+      ],
+      "file": "anchor-handles.svg",
+      "added": "0.5.0"
+    },
+    {
+      "name": "anchor-remove",
+      "displayName": "Anchor Remove",
+      "category": "design",
+      "tags": [],
+      "aliases": [
+        "remove-anchor",
+        "delete-point"
+      ],
+      "keywords": [
+        "anchor",
+        "remove",
+        "delete",
+        "point",
+        "node",
+        "minus",
+        "path"
+      ],
+      "file": "anchor-remove.svg",
+      "added": "0.5.0"
+    },
+    {
+      "name": "angle",
+      "displayName": "Angle",
+      "category": "design",
+      "tags": [],
+      "aliases": [
+        "protractor",
+        "angle-measure"
+      ],
+      "keywords": [
+        "angle",
+        "degrees",
+        "measure",
+        "geometry",
+        "corner"
+      ],
+      "file": "angle.svg",
+      "added": "0.5.0"
     },
     {
       "name": "archive",
@@ -1993,6 +2075,25 @@
       "added": "0.1.0"
     },
     {
+      "name": "blur",
+      "displayName": "Blur",
+      "category": "effects",
+      "tags": [],
+      "aliases": [
+        "gaussian-blur"
+      ],
+      "keywords": [
+        "blur",
+        "soften",
+        "effect",
+        "focus",
+        "fade",
+        "filter"
+      ],
+      "file": "blur.svg",
+      "added": "0.5.0"
+    },
+    {
       "name": "book",
       "displayName": "Book",
       "category": "object",
@@ -2127,6 +2228,25 @@
       ],
       "file": "briefcase.svg",
       "added": "0.1.0"
+    },
+    {
+      "name": "brightness",
+      "displayName": "Brightness",
+      "category": "effects",
+      "tags": [],
+      "aliases": [
+        "exposure"
+      ],
+      "keywords": [
+        "brightness",
+        "light",
+        "exposure",
+        "adjust",
+        "sun",
+        "image"
+      ],
+      "file": "brightness.svg",
+      "added": "0.5.0"
     },
     {
       "name": "bug",
@@ -5782,6 +5902,26 @@
       "added": "0.2.0"
     },
     {
+      "name": "collage",
+      "displayName": "Collage",
+      "category": "design",
+      "tags": [],
+      "aliases": [
+        "photo-collage",
+        "mosaic"
+      ],
+      "keywords": [
+        "collage",
+        "layout",
+        "photos",
+        "grid",
+        "images",
+        "mosaic"
+      ],
+      "file": "collage.svg",
+      "added": "0.5.0"
+    },
+    {
       "name": "collapse-diagonal-arrows-1",
       "displayName": "Collapse Diagonal Arrows 1",
       "category": "layout",
@@ -5868,6 +6008,26 @@
       "added": "0.1.0"
     },
     {
+      "name": "color-swatch",
+      "displayName": "Color Swatch",
+      "category": "design",
+      "tags": [],
+      "aliases": [
+        "swatches",
+        "paint-chip"
+      ],
+      "keywords": [
+        "color",
+        "swatch",
+        "palette",
+        "paint",
+        "samples",
+        "brush"
+      ],
+      "file": "color-swatch.svg",
+      "added": "0.5.0"
+    },
+    {
       "name": "columns",
       "displayName": "Columns",
       "category": "layout",
@@ -5892,6 +6052,26 @@
       ],
       "file": "columns.svg",
       "added": "0.1.0"
+    },
+    {
+      "name": "compass",
+      "displayName": "Drawing Compass",
+      "category": "design",
+      "tags": [],
+      "aliases": [
+        "drawing-compass",
+        "dividers"
+      ],
+      "keywords": [
+        "compass",
+        "draw",
+        "circle",
+        "geometry",
+        "measure",
+        "drafting"
+      ],
+      "file": "compass.svg",
+      "added": "0.5.0"
     },
     {
       "name": "compass-1",
@@ -6038,6 +6218,25 @@
       ],
       "file": "contract-up.svg",
       "added": "0.1.0"
+    },
+    {
+      "name": "contrast",
+      "displayName": "Contrast",
+      "category": "effects",
+      "tags": [],
+      "aliases": [
+        "half-circle"
+      ],
+      "keywords": [
+        "contrast",
+        "dark",
+        "light",
+        "adjust",
+        "black white",
+        "tone"
+      ],
+      "file": "contrast.svg",
+      "added": "0.5.0"
     },
     {
       "name": "copy",
@@ -6725,6 +6924,27 @@
       ],
       "file": "cube.svg",
       "added": "0.2.0"
+    },
+    {
+      "name": "curves",
+      "displayName": "Curves",
+      "category": "effects",
+      "tags": [],
+      "aliases": [
+        "curves-adjustment",
+        "tone-curve"
+      ],
+      "keywords": [
+        "curves",
+        "adjust",
+        "tone",
+        "levels",
+        "image",
+        "photo",
+        "color"
+      ],
+      "file": "curves.svg",
+      "added": "0.5.0"
     },
     {
       "name": "cycle-current",
@@ -7880,6 +8100,86 @@
       "added": "0.2.0"
     },
     {
+      "name": "ease-in",
+      "displayName": "Ease In",
+      "category": "design",
+      "tags": [],
+      "aliases": [
+        "ease-in-curve"
+      ],
+      "keywords": [
+        "ease",
+        "in",
+        "animation",
+        "curve",
+        "timing",
+        "accelerate",
+        "motion"
+      ],
+      "file": "ease-in.svg",
+      "added": "0.5.0"
+    },
+    {
+      "name": "ease-in-out",
+      "displayName": "Ease In Out",
+      "category": "design",
+      "tags": [],
+      "aliases": [
+        "ease-in-out-curve"
+      ],
+      "keywords": [
+        "ease",
+        "in out",
+        "animation",
+        "curve",
+        "timing",
+        "smooth",
+        "motion"
+      ],
+      "file": "ease-in-out.svg",
+      "added": "0.5.0"
+    },
+    {
+      "name": "ease-linear",
+      "displayName": "Ease Linear",
+      "category": "design",
+      "tags": [],
+      "aliases": [
+        "linear-easing"
+      ],
+      "keywords": [
+        "ease",
+        "easing",
+        "linear",
+        "animation",
+        "curve",
+        "timing",
+        "motion"
+      ],
+      "file": "ease-linear.svg",
+      "added": "0.5.0"
+    },
+    {
+      "name": "ease-out",
+      "displayName": "Ease Out",
+      "category": "design",
+      "tags": [],
+      "aliases": [
+        "ease-out-curve"
+      ],
+      "keywords": [
+        "ease",
+        "out",
+        "animation",
+        "curve",
+        "timing",
+        "decelerate",
+        "motion"
+      ],
+      "file": "ease-out.svg",
+      "added": "0.5.0"
+    },
+    {
       "name": "edit",
       "displayName": "Edit",
       "category": "action",
@@ -8045,6 +8345,26 @@
       ],
       "file": "eraser.svg",
       "added": "0.2.0"
+    },
+    {
+      "name": "exclude",
+      "displayName": "Exclude",
+      "category": "design",
+      "tags": [],
+      "aliases": [
+        "boolean-exclude",
+        "xor"
+      ],
+      "keywords": [
+        "boolean",
+        "exclude",
+        "xor",
+        "overlap",
+        "difference",
+        "shapes"
+      ],
+      "file": "exclude.svg",
+      "added": "0.5.0"
     },
     {
       "name": "expand-diagonal-arrows-1",
@@ -8310,6 +8630,26 @@
       ],
       "file": "eye.svg",
       "added": "0.1.0"
+    },
+    {
+      "name": "eye-dropper",
+      "displayName": "Eye Dropper",
+      "category": "design",
+      "tags": [],
+      "aliases": [
+        "eyedropper",
+        "color-picker",
+        "pipette"
+      ],
+      "keywords": [
+        "eye dropper",
+        "pick",
+        "color",
+        "sample",
+        "picker"
+      ],
+      "file": "eye-dropper.svg",
+      "added": "0.5.0"
     },
     {
       "name": "eye-off",
@@ -9273,6 +9613,26 @@
       ],
       "file": "flask.svg",
       "added": "0.2.0"
+    },
+    {
+      "name": "flatten",
+      "displayName": "Flatten",
+      "category": "design",
+      "tags": [],
+      "aliases": [
+        "flatten-layers",
+        "merge-down"
+      ],
+      "keywords": [
+        "flatten",
+        "merge",
+        "layers",
+        "combine",
+        "vector",
+        "outline"
+      ],
+      "file": "flatten.svg",
+      "added": "0.5.0"
     },
     {
       "name": "focus-1",
@@ -10310,6 +10670,45 @@
       "added": "0.1.0"
     },
     {
+      "name": "frame",
+      "displayName": "Frame",
+      "category": "design",
+      "tags": [],
+      "aliases": [
+        "artboard",
+        "frame-tool"
+      ],
+      "keywords": [
+        "frame",
+        "artboard",
+        "layout",
+        "board",
+        "canvas",
+        "grid"
+      ],
+      "file": "frame.svg",
+      "added": "0.5.0"
+    },
+    {
+      "name": "frame-plus",
+      "displayName": "Frame Plus",
+      "category": "design",
+      "tags": [],
+      "aliases": [
+        "add-frame",
+        "new-artboard"
+      ],
+      "keywords": [
+        "frame",
+        "plus",
+        "add",
+        "new",
+        "artboard"
+      ],
+      "file": "frame-plus.svg",
+      "added": "0.5.0"
+    },
+    {
       "name": "frown",
       "displayName": "Frown",
       "category": "feedback",
@@ -10963,6 +11362,26 @@
       "added": "0.1.0"
     },
     {
+      "name": "gradient",
+      "displayName": "Gradient",
+      "category": "effects",
+      "tags": [],
+      "aliases": [
+        "linear-gradient",
+        "color-gradient"
+      ],
+      "keywords": [
+        "gradient",
+        "fade",
+        "color",
+        "blend",
+        "fill",
+        "transition"
+      ],
+      "file": "gradient.svg",
+      "added": "0.5.0"
+    },
+    {
       "name": "graduation-cap",
       "displayName": "Graduation Cap",
       "category": "object",
@@ -11108,6 +11527,28 @@
       ],
       "file": "hash.svg",
       "added": "0.1.0"
+    },
+    {
+      "name": "hatch",
+      "displayName": "Hatch",
+      "category": "design",
+      "tags": [],
+      "aliases": [
+        "hatching",
+        "diagonal-lines",
+        "stripes"
+      ],
+      "keywords": [
+        "hatch",
+        "lines",
+        "diagonal",
+        "pattern",
+        "shading",
+        "stripes",
+        "texture"
+      ],
+      "file": "hatch.svg",
+      "added": "0.5.0"
     },
     {
       "name": "heading-1",
@@ -11768,6 +12209,26 @@
       "added": "0.2.0"
     },
     {
+      "name": "hue",
+      "displayName": "Hue",
+      "category": "effects",
+      "tags": [],
+      "aliases": [
+        "color-wheel",
+        "hue-shift"
+      ],
+      "keywords": [
+        "hue",
+        "color",
+        "wheel",
+        "tint",
+        "shift",
+        "adjust"
+      ],
+      "file": "hue.svg",
+      "added": "0.5.0"
+    },
+    {
       "name": "id-card",
       "displayName": "ID Card",
       "category": "object",
@@ -11942,6 +12403,26 @@
       "added": "0.1.0"
     },
     {
+      "name": "intersect",
+      "displayName": "Intersect",
+      "category": "design",
+      "tags": [],
+      "aliases": [
+        "boolean-intersect",
+        "overlap"
+      ],
+      "keywords": [
+        "boolean",
+        "intersect",
+        "overlap",
+        "common",
+        "shapes",
+        "vector"
+      ],
+      "file": "intersect.svg",
+      "added": "0.5.0"
+    },
+    {
       "name": "issues",
       "displayName": "Issues",
       "category": "dev",
@@ -12004,6 +12485,43 @@
       "added": "0.1.0"
     },
     {
+      "name": "keyframe",
+      "displayName": "Keyframe",
+      "category": "design",
+      "tags": [],
+      "aliases": [
+        "animation-keyframe"
+      ],
+      "keywords": [
+        "keyframe",
+        "animation",
+        "timeline",
+        "diamond",
+        "motion"
+      ],
+      "file": "keyframe.svg",
+      "added": "0.5.0"
+    },
+    {
+      "name": "keyframes",
+      "displayName": "Keyframes",
+      "category": "design",
+      "tags": [],
+      "aliases": [
+        "keyframe-sequence",
+        "animation-frames"
+      ],
+      "keywords": [
+        "keyframes",
+        "animation",
+        "timeline",
+        "interpolate",
+        "motion"
+      ],
+      "file": "keyframes.svg",
+      "added": "0.5.0"
+    },
+    {
       "name": "lamp",
       "displayName": "Lamp",
       "category": "object",
@@ -12041,6 +12559,26 @@
       ],
       "file": "laptop.svg",
       "added": "0.1.0"
+    },
+    {
+      "name": "lasso",
+      "displayName": "Lasso",
+      "category": "design",
+      "tags": [],
+      "aliases": [
+        "lasso-select",
+        "free-select"
+      ],
+      "keywords": [
+        "lasso",
+        "select",
+        "free select",
+        "cursor",
+        "region",
+        "selection"
+      ],
+      "file": "lasso.svg",
+      "added": "0.5.0"
     },
     {
       "name": "layout-1",
@@ -13022,6 +13560,25 @@
       "added": "0.1.0"
     },
     {
+      "name": "mask",
+      "displayName": "Mask",
+      "category": "effects",
+      "tags": [],
+      "aliases": [
+        "clipping-mask"
+      ],
+      "keywords": [
+        "mask",
+        "clip",
+        "crop",
+        "hide",
+        "layer",
+        "effect"
+      ],
+      "file": "mask.svg",
+      "added": "0.5.0"
+    },
+    {
       "name": "maximize",
       "displayName": "Maximize",
       "category": "layout",
@@ -13039,6 +13596,46 @@
       ],
       "file": "maximize.svg",
       "added": "0.1.0"
+    },
+    {
+      "name": "measure-horizontal",
+      "displayName": "Measure Horizontal",
+      "category": "design",
+      "tags": [],
+      "aliases": [
+        "width",
+        "horizontal-dimension"
+      ],
+      "keywords": [
+        "measure",
+        "horizontal",
+        "width",
+        "distance",
+        "dimension",
+        "spacing"
+      ],
+      "file": "measure-horizontal.svg",
+      "added": "0.5.0"
+    },
+    {
+      "name": "measure-vertical",
+      "displayName": "Measure Vertical",
+      "category": "design",
+      "tags": [],
+      "aliases": [
+        "height",
+        "vertical-dimension"
+      ],
+      "keywords": [
+        "measure",
+        "vertical",
+        "height",
+        "distance",
+        "dimension",
+        "spacing"
+      ],
+      "file": "measure-vertical.svg",
+      "added": "0.5.0"
     },
     {
       "name": "megaphone",
@@ -13390,6 +13987,25 @@
       "added": "0.1.0"
     },
     {
+      "name": "motion-blur",
+      "displayName": "Motion Blur",
+      "category": "effects",
+      "tags": [],
+      "aliases": [
+        "speed-blur"
+      ],
+      "keywords": [
+        "motion",
+        "blur",
+        "speed",
+        "movement",
+        "streak",
+        "effect"
+      ],
+      "file": "motion-blur.svg",
+      "added": "0.5.0"
+    },
+    {
       "name": "mouse",
       "displayName": "Mouse",
       "category": "device",
@@ -13472,6 +14088,46 @@
       "added": "0.1.0"
     },
     {
+      "name": "node-select",
+      "displayName": "Node Select",
+      "category": "design",
+      "tags": [],
+      "aliases": [
+        "direct-select",
+        "select-nodes"
+      ],
+      "keywords": [
+        "node",
+        "select",
+        "anchor",
+        "vector",
+        "edit",
+        "cursor"
+      ],
+      "file": "node-select.svg",
+      "added": "0.5.0"
+    },
+    {
+      "name": "opacity",
+      "displayName": "Opacity",
+      "category": "effects",
+      "tags": [],
+      "aliases": [
+        "transparency",
+        "alpha"
+      ],
+      "keywords": [
+        "opacity",
+        "transparency",
+        "alpha",
+        "checkerboard",
+        "see-through",
+        "fade"
+      ],
+      "file": "opacity.svg",
+      "added": "0.5.0"
+    },
+    {
       "name": "package",
       "displayName": "Package",
       "category": "object",
@@ -13505,6 +14161,86 @@
       ],
       "file": "package-2.svg",
       "added": "0.2.0"
+    },
+    {
+      "name": "paint-bucket",
+      "displayName": "Paint Bucket",
+      "category": "design",
+      "tags": [],
+      "aliases": [
+        "fill",
+        "bucket-fill"
+      ],
+      "keywords": [
+        "paint",
+        "bucket",
+        "fill",
+        "color",
+        "flood fill"
+      ],
+      "file": "paint-bucket.svg",
+      "added": "0.5.0"
+    },
+    {
+      "name": "paintbrush",
+      "displayName": "Paintbrush",
+      "category": "design",
+      "tags": [],
+      "aliases": [
+        "brush",
+        "paint-brush"
+      ],
+      "keywords": [
+        "paintbrush",
+        "paint",
+        "brush",
+        "art",
+        "draw",
+        "color"
+      ],
+      "file": "paintbrush.svg",
+      "added": "0.5.0"
+    },
+    {
+      "name": "paintbrush-sparkle",
+      "displayName": "Paintbrush Sparkle",
+      "category": "design",
+      "tags": [],
+      "aliases": [
+        "ai-brush",
+        "magic-brush"
+      ],
+      "keywords": [
+        "paintbrush",
+        "sparkle",
+        "ai",
+        "magic",
+        "paint",
+        "generate",
+        "art"
+      ],
+      "file": "paintbrush-sparkle.svg",
+      "added": "0.5.0"
+    },
+    {
+      "name": "palette",
+      "displayName": "Palette",
+      "category": "design",
+      "tags": [],
+      "aliases": [
+        "paint-palette",
+        "colors"
+      ],
+      "keywords": [
+        "color",
+        "paint",
+        "artist",
+        "theme",
+        "swatch",
+        "palette"
+      ],
+      "file": "palette.svg",
+      "added": "0.5.0"
     },
     {
       "name": "paperclip-1",
@@ -13607,6 +14343,46 @@
       ],
       "file": "pause-squircle.svg",
       "added": "0.1.0"
+    },
+    {
+      "name": "pen-path",
+      "displayName": "Pen Path",
+      "category": "design",
+      "tags": [],
+      "aliases": [
+        "draw-path",
+        "pen-cursor"
+      ],
+      "keywords": [
+        "pen",
+        "path",
+        "draw",
+        "vector",
+        "cursor",
+        "anchor"
+      ],
+      "file": "pen-path.svg",
+      "added": "0.5.0"
+    },
+    {
+      "name": "pencil-ruler",
+      "displayName": "Pencil Ruler",
+      "category": "design",
+      "tags": [],
+      "aliases": [
+        "draft",
+        "design-tools"
+      ],
+      "keywords": [
+        "pencil",
+        "ruler",
+        "design",
+        "draft",
+        "measure",
+        "tools"
+      ],
+      "file": "pencil-ruler.svg",
+      "added": "0.5.0"
     },
     {
       "name": "percent",
@@ -13802,6 +14578,26 @@
       ],
       "file": "pin-2.svg",
       "added": "0.1.0"
+    },
+    {
+      "name": "pixel-grid",
+      "displayName": "Pixel Grid",
+      "category": "design",
+      "tags": [],
+      "aliases": [
+        "pixel-snap",
+        "pixel-art"
+      ],
+      "keywords": [
+        "pixel",
+        "grid",
+        "snap",
+        "bitmap",
+        "raster",
+        "pixel art"
+      ],
+      "file": "pixel-grid.svg",
+      "added": "0.5.0"
     },
     {
       "name": "plane",
@@ -14792,6 +15588,26 @@
       "added": "0.2.0"
     },
     {
+      "name": "saturation",
+      "displayName": "Saturation",
+      "category": "effects",
+      "tags": [],
+      "aliases": [
+        "color-saturation",
+        "vibrance"
+      ],
+      "keywords": [
+        "saturation",
+        "color",
+        "intensity",
+        "vibrance",
+        "drop",
+        "adjust"
+      ],
+      "file": "saturation.svg",
+      "added": "0.5.0"
+    },
+    {
       "name": "save",
       "displayName": "Save",
       "category": "file",
@@ -14996,6 +15812,26 @@
       "added": "0.2.0"
     },
     {
+      "name": "screen-cursor",
+      "displayName": "Screen Cursor",
+      "category": "design",
+      "tags": [],
+      "aliases": [
+        "click",
+        "pointer-screen"
+      ],
+      "keywords": [
+        "cursor",
+        "screen",
+        "click",
+        "pointer",
+        "select",
+        "interact"
+      ],
+      "file": "screen-cursor.svg",
+      "added": "0.5.0"
+    },
+    {
       "name": "search",
       "displayName": "Search",
       "category": "action",
@@ -15117,6 +15953,26 @@
       ],
       "file": "server-2.svg",
       "added": "0.1.0"
+    },
+    {
+      "name": "set-square",
+      "displayName": "Set Square",
+      "category": "design",
+      "tags": [],
+      "aliases": [
+        "triangle-ruler",
+        "drafting-triangle"
+      ],
+      "keywords": [
+        "set square",
+        "triangle",
+        "ruler",
+        "drafting",
+        "angle",
+        "measure"
+      ],
+      "file": "set-square.svg",
+      "added": "0.5.0"
     },
     {
       "name": "settings",
@@ -16953,6 +17809,27 @@
       "added": "0.1.0"
     },
     {
+      "name": "subtract",
+      "displayName": "Subtract",
+      "category": "design",
+      "tags": [],
+      "aliases": [
+        "boolean-subtract",
+        "cut-out",
+        "minus-front"
+      ],
+      "keywords": [
+        "boolean",
+        "subtract",
+        "cut",
+        "difference",
+        "shapes",
+        "vector"
+      ],
+      "file": "subtract.svg",
+      "added": "0.5.0"
+    },
+    {
       "name": "sun",
       "displayName": "Sun",
       "category": "weather",
@@ -17341,6 +18218,26 @@
       ],
       "file": "text-align-right.svg",
       "added": "0.1.0"
+    },
+    {
+      "name": "theme",
+      "displayName": "Theme",
+      "category": "design",
+      "tags": [],
+      "aliases": [
+        "theme-editor",
+        "design-system"
+      ],
+      "keywords": [
+        "theme",
+        "styles",
+        "design system",
+        "tokens",
+        "colors",
+        "layout"
+      ],
+      "file": "theme.svg",
+      "added": "0.5.0"
     },
     {
       "name": "thermometer-1",
@@ -17835,6 +18732,28 @@
       ],
       "file": "undo.svg",
       "added": "0.1.0"
+    },
+    {
+      "name": "union",
+      "displayName": "Union",
+      "category": "design",
+      "tags": [],
+      "aliases": [
+        "boolean-union",
+        "combine",
+        "merge"
+      ],
+      "keywords": [
+        "boolean",
+        "union",
+        "combine",
+        "merge",
+        "shapes",
+        "vector",
+        "add"
+      ],
+      "file": "union.svg",
+      "added": "0.5.0"
     },
     {
       "name": "unlock",
@@ -18547,6 +19466,26 @@
       "added": "0.1.0"
     },
     {
+      "name": "vector",
+      "displayName": "Vector",
+      "category": "design",
+      "tags": [],
+      "aliases": [
+        "vector-shape",
+        "bounding-box"
+      ],
+      "keywords": [
+        "vector",
+        "shape",
+        "bounds",
+        "anchors",
+        "frame",
+        "path"
+      ],
+      "file": "vector.svg",
+      "added": "0.5.0"
+    },
+    {
       "name": "video",
       "displayName": "Video",
       "category": "media",
@@ -18724,6 +19663,26 @@
       "added": "0.1.0"
     },
     {
+      "name": "warp",
+      "displayName": "Warp",
+      "category": "design",
+      "tags": [],
+      "aliases": [
+        "mesh-warp",
+        "distort"
+      ],
+      "keywords": [
+        "warp",
+        "distort",
+        "mesh",
+        "bend",
+        "transform",
+        "shape"
+      ],
+      "file": "warp.svg",
+      "added": "0.5.0"
+    },
+    {
       "name": "watch",
       "displayName": "Watch",
       "category": "device",
@@ -18875,6 +19834,26 @@
       "added": "0.1.0"
     },
     {
+      "name": "wireframe",
+      "displayName": "Wireframe",
+      "category": "design",
+      "tags": [],
+      "aliases": [
+        "wire-frame",
+        "placeholder"
+      ],
+      "keywords": [
+        "wireframe",
+        "placeholder",
+        "mockup",
+        "sketch",
+        "image",
+        "box"
+      ],
+      "file": "wireframe.svg",
+      "added": "0.5.0"
+    },
+    {
       "name": "x-circle",
       "displayName": "X Circle",
       "category": "feedback",
@@ -18944,6 +19923,26 @@
       ],
       "file": "x-squircle.svg",
       "added": "0.1.0"
+    },
+    {
+      "name": "zoom-fit",
+      "displayName": "Zoom Fit",
+      "category": "design",
+      "tags": [],
+      "aliases": [
+        "fit-to-screen",
+        "fit-view"
+      ],
+      "keywords": [
+        "zoom",
+        "fit",
+        "screen",
+        "frame",
+        "view",
+        "focus"
+      ],
+      "file": "zoom-fit.svg",
+      "added": "0.5.0"
     }
   ]
 }

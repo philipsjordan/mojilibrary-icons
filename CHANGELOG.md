@@ -2,6 +2,27 @@
 
 All notable changes to the icon set. One version for the whole library, following semver (see the README): major for breaking changes, minor for new icons, patch for fixes.
 
+## 0.5.0 - 2026-11-08
+
+**1000 icons (+50).** Design tools and image effects: boolean shapes, paths and anchors, easing curves, colour and paint, measuring, plus effects like blur and opacity.
+
+### Added (50)
+
+- Boolean: `union`, `subtract`, `intersect`, `exclude`, `flatten`
+- Paths and anchors: `pen-path`, `node-select`, `vector`, `anchor-handles`, `anchor-add`, `anchor-remove`
+- Easing: `ease-linear`, `ease-in`, `ease-out`, `ease-in-out`
+- Effects: `gradient`, `contrast`, `opacity`, `blur`, `motion-blur`, `mask`
+- Image adjustments: `brightness`, `saturation`, `hue`, `curves`
+- Colour and paint: `color-swatch`, `palette`, `paint-bucket`, `paintbrush`, `paintbrush-sparkle`, `eye-dropper`
+- Canvas and layout: `frame`, `frame-plus`, `zoom-fit`, `wireframe`, `pixel-grid`, `collage`, `theme`, `screen-cursor`
+- Drawing and measuring: `set-square`, `compass`, `pencil-ruler`, `measure-horizontal`, `measure-vertical`, `angle`, `hatch`
+- Selection and transform: `lasso`, `warp`
+- Animation: `keyframe`, `keyframes`
+
+### Changed
+
+- Two new categories: `design` (40 icons) and `effects` (10 icons).
+
 ## 0.4.1 - 2026-10-22
 
 **950 icons (no change).** Fixes the dashes on two icons.
