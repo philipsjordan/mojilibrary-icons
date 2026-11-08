@@ -31,3 +31,7 @@ jobs:
           fi
       - name: Manifest matches the icons
         run: node scripts/validate-manifest.mjs
+      - name: Package generator tests
+        run: node --test scripts/packages/*.test.mjs
+      - name: Every icon can be built into the React and Vue packages
+        run: node scripts/packages/build.mjs
