@@ -1,6 +1,6 @@
 // Tree-shaking check (ICN-159): an app that imports a few icons must only contain those icons.
 // Bundled with esbuild (dev dependency, test only), the way an app bundler would, with react and vue left external.
-import test, { before } from 'node:test';
+import test, { after, before } from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import path from 'node:path';
@@ -9,11 +9,18 @@ import { writePackage } from './emit.mjs';
 import { loadIcons } from './build.mjs';
 
 const root = path.resolve(import.meta.dirname, '..', '..');
-const dist = (fw, ...p) => path.join(root, 'packages', fw, 'dist', ...p);
+// Its own build folder (inside the repo, so react and vue resolve): test files run in parallel.
+const out = path.join(root, '.test-out', 'treeshake');
+// The layout of an installed package: package.json next to dist (its sideEffects flag is what lets bundlers drop unused icons).
+const dist = (fw, ...p) => path.join(out, fw, 'dist', ...p);
 const { icons } = loadIcons();
 before(() => {
-  for (const fw of ['react', 'vue']) writePackage(fw, icons, path.join(root, 'packages', fw, 'src'), dist(fw));
+  for (const fw of ['react', 'vue']) {
+    writePackage(fw, icons, path.join(root, 'packages', fw, 'src'), dist(fw));
+    fs.copyFileSync(path.join(root, 'packages', fw, 'package.json'), path.join(out, fw, 'package.json'));
+  }
 });
+after(() => fs.rmSync(out, { recursive: true, force: true }));
 
 async function bundle(fw, code) {
   const result = await build({

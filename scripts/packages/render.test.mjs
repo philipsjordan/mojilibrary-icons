@@ -1,6 +1,6 @@
 // Render tests with the real React and Vue (dev dependencies only), ICN-159.
 // The packages are built from the real icons first, then imported like a user would (ES module and CommonJS).
-import test, { before } from 'node:test';
+import test, { after, before } from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import { createRequire } from 'node:module';
@@ -16,14 +16,21 @@ import { parseXml } from './svg.mjs';
 
 const root = path.resolve(import.meta.dirname, '..', '..');
 const require = createRequire(import.meta.url);
-const dist = (fw, ...p) => path.join(root, 'packages', fw, 'dist', ...p);
+// Each test file builds into its own folder (inside the repo, so react and vue resolve): test files run in parallel.
+const out = path.join(root, '.test-out', 'render');
+// The layout of an installed package: package.json next to dist (its sideEffects flag is what lets bundlers drop unused icons).
+const dist = (fw, ...p) => path.join(out, fw, 'dist', ...p);
 const load = (fw, file) => import(pathToFileURL(dist(fw, file)).href);
 
 const { icons, problems } = loadIcons();
 before(() => {
   assert.deepEqual(problems, []);
-  for (const fw of ['react', 'vue']) writePackage(fw, icons, path.join(root, 'packages', fw, 'src'), dist(fw));
+  for (const fw of ['react', 'vue']) {
+    writePackage(fw, icons, path.join(root, 'packages', fw, 'src'), dist(fw));
+    fs.copyFileSync(path.join(root, 'packages', fw, 'package.json'), path.join(out, fw, 'package.json'));
+  }
 });
+after(() => fs.rmSync(out, { recursive: true, force: true }));
 
 const reactHtml = (Icon, props) => renderToStaticMarkup(createElement(Icon, props));
 const vueHtml = (Icon, props, attrs = {}) => renderToString(createSSRApp({ render: () => h(Icon, { ...props, ...attrs }) }));
