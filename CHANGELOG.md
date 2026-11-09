@@ -2,6 +2,16 @@
 
 All notable changes to the icon set. One version for the whole library, following semver (see the README): major for breaking changes, minor for new icons, patch for fixes.
 
+## 0.5.1 - 2026-11-09
+
+**1000 icons (no change).** Fixes five icons from 0.5.0 that looked wrong on the website or in Figma.
+
+### Fixed
+
+- `opacity`, `palette`, `contrast`: they looked different on the website. The website draws every icon with round corners and a 2px outline on the whole SVG, and these three relied on defaults. The checker squares in `opacity` came out rounded, and the filled dots in `palette` and the filled half of `contrast` got a 2px outline and looked too big. The SVGs now say what they mean on their own, so they look the same everywhere.
+- `anchor-handles`: the two handle lines now run into the centre square instead of stopping just short of it.
+- `brightness`: one stripe in the right half of the core instead of two short stubs.
+
 ## 0.5.0 - 2026-11-08
 
 **1000 icons (+50).** Design tools and image effects: boolean shapes, paths and anchors, easing curves, colour and paint, measuring, plus effects like blur and opacity.
