@@ -43,3 +43,5 @@ jobs:
         run: npm test
       - name: Every icon can be built into the React and Vue packages
         run: node scripts/packages/build.mjs
+      - name: Package builds are reproducible (twice gives byte-identical output)
+        run: node scripts/packages/check-reproducible.mjs
