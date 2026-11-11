@@ -47,6 +47,14 @@ jobs:
           else
             node scripts/packages/prepare-publish.mjs
           fi
+      - name: Check the npm token works (fails early if the secret is missing, wrong or expired)
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+        run: |
+          if [ -z "$NODE_AUTH_TOKEN" ]; then echo "The repository secret NPM_TOKEN is not set."; exit 1; fi
+          user=$(npm whoami) || { echo "npm did not accept the token. Create a new one and update the secret NPM_TOKEN."; exit 1; }
+          echo "npm accepts the token (logged in as $user)"
+          if [ "$user" != "mojilibrary" ]; then echo "Expected the npm user mojilibrary."; exit 1; fi
       - name: Publish (dry run unless this is a release or the box was unticked)
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
