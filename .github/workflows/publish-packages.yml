@@ -1,0 +1,59 @@
+name: Publish packages
+
+# Publishes @mojilibrary/react and @mojilibrary/vue to npm (ICN-159).
+# - Manual run (Actions tab, "Run workflow"): a dry run by default, nothing is published.
+# - A published GitHub release publishes for real, but ONLY when the repository variable PUBLISH_PACKAGES is "true"
+#   (Settings, Secrets and variables, Actions, Variables). It stays off until the icon names are locked.
+# The npm token is the repository secret NPM_TOKEN. It is never written into the repository.
+
+on:
+  release:
+    types: [published]
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: 'Dry run (nothing is published)'
+        type: boolean
+        default: true
+
+permissions:
+  contents: read
+  id-token: write # npm provenance: shows on npmjs.com that the package was built from this repository
+
+jobs:
+  publish:
+    if: ${{ github.event_name == 'workflow_dispatch' || vars.PUBLISH_PACKAGES == 'true' }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          registry-url: https://registry.npmjs.org
+      - run: npm ci
+      - name: Manifest matches the icons
+        run: node scripts/validate-manifest.mjs
+      - name: Tests
+        run: npm test
+      - name: Builds are reproducible
+        run: node scripts/packages/check-reproducible.mjs
+      - name: Build the packages
+        run: node scripts/packages/build.mjs
+      - name: Version from icons.json (and the release tag must match it)
+        run: |
+          if [ "${{ github.event_name }}" = "release" ]; then
+            node scripts/packages/prepare-publish.mjs --tag "${{ github.event.release.tag_name }}"
+          else
+            node scripts/packages/prepare-publish.mjs
+          fi
+      - name: Publish (dry run unless this is a release or the box was unticked)
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+          DRY: ${{ github.event_name == 'workflow_dispatch' && inputs.dry_run }}
+        run: |
+          flags="--access public --provenance"
+          if [ "$DRY" = "true" ]; then flags="$flags --dry-run"; fi
+          for p in react vue; do
+            (cd packages/$p && npm publish $flags)
+          done
