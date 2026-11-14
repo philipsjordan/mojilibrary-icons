@@ -15359,28 +15359,6 @@
       "added": "0.6.0"
     },
     {
-      "name": "radio",
-      "displayName": "Radio",
-      "category": "media",
-      "tags": [],
-      "aliases": [
-        "radio-set",
-        "fm-radio",
-        "boombox"
-      ],
-      "keywords": [
-        "radio",
-        "fm",
-        "am",
-        "antenna",
-        "broadcast",
-        "tuner",
-        "audio"
-      ],
-      "file": "radio.svg",
-      "added": "0.6.0"
-    },
-    {
       "name": "receipt",
       "displayName": "Receipt",
       "category": "commerce",
@@ -19169,6 +19147,28 @@
       ],
       "file": "trash-delete.svg",
       "added": "0.1.0"
+    },
+    {
+      "name": "treble-clef",
+      "displayName": "Treble Clef",
+      "category": "media",
+      "tags": [],
+      "aliases": [
+        "g-clef",
+        "music-clef"
+      ],
+      "keywords": [
+        "treble",
+        "clef",
+        "music",
+        "notation",
+        "staff",
+        "sheet",
+        "score",
+        "g-clef"
+      ],
+      "file": "treble-clef.svg",
+      "added": "0.6.0"
     },
     {
       "name": "tree",

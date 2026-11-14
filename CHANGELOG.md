@@ -13,7 +13,8 @@ All notable changes to the icon set. One version for the whole library, followin
 - Trends: `chart-up`, `chart-down`
 - Music library: `music-note`, `artist`, `album`, `song`, `playlist`, `playlist-plus`, `play-next`, `lyrics`
 - Player: `shuffle`, `repeat`, `repeat-one`, `replay`
-- Audio and gear: `radio`, `speaker`, `equalizer`, `sound-wave`, `podcast`, `turntable`
+- Notation: `treble-clef`
+- Audio and gear: `speaker`, `equalizer`, `sound-wave`, `podcast`, `turntable`
 
 ### Changed
 
