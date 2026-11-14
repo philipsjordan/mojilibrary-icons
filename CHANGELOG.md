@@ -2,6 +2,24 @@
 
 All notable changes to the icon set. One version for the whole library, following semver (see the README): major for breaking changes, minor for new icons, patch for fixes.
 
+## 0.6.0 - 2026-11-19
+
+**1036 icons (+36).** Charts and music: 18 new chart types and 18 icons for players, playlists and audio gear. From this release on, icon names (slugs) are locked: they are not renamed or removed without a major version. The React and Vue packages, `@mojilibrary/react` and `@mojilibrary/vue`, are published with this version.
+
+### Added (36)
+
+- Chart types: `candle-chart`, `bell-curve`, `network-chart`, `donut-chart`, `histogram`, `stacked-bar-chart`, `heatmap`, `sparkline`, `treemap`, `sankey-chart`, `area-chart`, `scatter-chart`, `radar-chart`
+- Bar charts: `hollow-bar-chart`, `hollow-bar-chart-up`, `hollow-bar-chart-down`
+- Trends: `chart-up`, `chart-down`
+- Music library: `music-note`, `artist`, `album`, `song`, `playlist`, `playlist-plus`, `play-next`, `lyrics`
+- Player: `shuffle`, `repeat`, `repeat-one`, `replay`
+- Audio and gear: `radio`, `speaker`, `equalizer`, `sound-wave`, `podcast`, `turntable`
+
+### Changed
+
+- The `chart` category grows from 7 to 25 icons and `media` from 34 to 52.
+- The search words `song`, `album`, `speaker` and `equalizer` now find the new icons of the same name first. They are removed as aliases from `music`, `disc`, `volume` and `sliders`, which still have those words as keywords.
+
 ## 0.5.1 - 2026-11-09
 
 **1000 icons (no change).** Fixes five icons from 0.5.0 that looked wrong on the website or in Figma.

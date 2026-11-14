@@ -1,11 +1,12 @@
 {
-  "version": "0.5.1",
+  "version": "0.6.0",
   "releases": {
     "0.1.0": "2026-10-01",
     "0.2.0": "2026-10-03",
     "0.3.0": "2026-10-05",
     "0.4.0": "2026-10-22",
-    "0.5.0": "2026-11-08"
+    "0.5.0": "2026-11-08",
+    "0.6.0": "2026-11-19"
   },
   "icons": [
     {
@@ -126,6 +127,27 @@
       ],
       "file": "alarm-clock-sparkle.svg",
       "added": "0.4.0"
+    },
+    {
+      "name": "album",
+      "displayName": "Album",
+      "category": "media",
+      "tags": [],
+      "aliases": [
+        "record-sleeve",
+        "album-cover",
+        "lp"
+      ],
+      "keywords": [
+        "album",
+        "music",
+        "cover",
+        "record",
+        "collection",
+        "release"
+      ],
+      "file": "album.svg",
+      "added": "0.6.0"
     },
     {
       "name": "alert-circle",
@@ -443,6 +465,26 @@
       ],
       "file": "archive.svg",
       "added": "0.1.0"
+    },
+    {
+      "name": "area-chart",
+      "displayName": "Area Chart",
+      "category": "chart",
+      "tags": [],
+      "aliases": [
+        "filled-line-chart",
+        "mountain-chart"
+      ],
+      "keywords": [
+        "area",
+        "filled",
+        "trend",
+        "volume",
+        "over-time",
+        "data"
+      ],
+      "file": "area-chart.svg",
+      "added": "0.6.0"
     },
     {
       "name": "arrow-circle-down",
@@ -1269,6 +1311,28 @@
       "added": "0.3.0"
     },
     {
+      "name": "artist",
+      "displayName": "Artist",
+      "category": "media",
+      "tags": [],
+      "aliases": [
+        "musician",
+        "singer",
+        "performer"
+      ],
+      "keywords": [
+        "artist",
+        "music",
+        "profile",
+        "person",
+        "singer",
+        "band",
+        "creator"
+      ],
+      "file": "artist.svg",
+      "added": "0.6.0"
+    },
+    {
       "name": "aspect-ratio",
       "displayName": "Aspect Ratio",
       "category": "action",
@@ -1669,6 +1733,27 @@
       ],
       "file": "bell-close.svg",
       "added": "0.1.0"
+    },
+    {
+      "name": "bell-curve",
+      "displayName": "Bell Curve",
+      "category": "chart",
+      "tags": [],
+      "aliases": [
+        "normal-distribution",
+        "gaussian",
+        "distribution-curve"
+      ],
+      "keywords": [
+        "statistics",
+        "probability",
+        "distribution",
+        "curve",
+        "normal",
+        "data"
+      ],
+      "file": "bell-curve.svg",
+      "added": "0.6.0"
     },
     {
       "name": "bell-dot",
@@ -2849,6 +2934,28 @@
       "added": "0.1.0"
     },
     {
+      "name": "candle-chart",
+      "displayName": "Candle Chart",
+      "category": "chart",
+      "tags": [],
+      "aliases": [
+        "candlestick-chart",
+        "candlestick",
+        "ohlc-chart"
+      ],
+      "keywords": [
+        "stock",
+        "trading",
+        "market",
+        "finance",
+        "price",
+        "candles",
+        "chart"
+      ],
+      "file": "candle-chart.svg",
+      "added": "0.6.0"
+    },
+    {
       "name": "car",
       "displayName": "Car",
       "category": "transport",
@@ -2911,6 +3018,50 @@
       ],
       "file": "cctv.svg",
       "added": "0.4.0"
+    },
+    {
+      "name": "chart-down",
+      "displayName": "Chart Down",
+      "category": "chart",
+      "tags": [],
+      "aliases": [
+        "decline-chart",
+        "graph-down",
+        "falling-chart"
+      ],
+      "keywords": [
+        "decline",
+        "decrease",
+        "falling",
+        "loss",
+        "drop",
+        "analytics",
+        "down"
+      ],
+      "file": "chart-down.svg",
+      "added": "0.6.0"
+    },
+    {
+      "name": "chart-up",
+      "displayName": "Chart Up",
+      "category": "chart",
+      "tags": [],
+      "aliases": [
+        "growth-chart",
+        "graph-up",
+        "rising-chart"
+      ],
+      "keywords": [
+        "growth",
+        "increase",
+        "rising",
+        "profit",
+        "trend",
+        "analytics",
+        "up"
+      ],
+      "file": "chart-up.svg",
+      "added": "0.6.0"
     },
     {
       "name": "chat",
@@ -7795,7 +7946,6 @@
       "aliases": [
         "cd",
         "dvd",
-        "album",
         "record"
       ],
       "keywords": [
@@ -7854,6 +8004,27 @@
       ],
       "file": "dollar.svg",
       "added": "0.1.0"
+    },
+    {
+      "name": "donut-chart",
+      "displayName": "Donut Chart",
+      "category": "chart",
+      "tags": [],
+      "aliases": [
+        "doughnut-chart",
+        "ring-chart"
+      ],
+      "keywords": [
+        "donut",
+        "doughnut",
+        "ring",
+        "proportions",
+        "share",
+        "percentage",
+        "data"
+      ],
+      "file": "donut-chart.svg",
+      "added": "0.6.0"
     },
     {
       "name": "door",
@@ -8323,6 +8494,28 @@
       ],
       "file": "enter.svg",
       "added": "0.1.0"
+    },
+    {
+      "name": "equalizer",
+      "displayName": "Equalizer",
+      "category": "media",
+      "tags": [],
+      "aliases": [
+        "eq",
+        "level-meter",
+        "audio-levels"
+      ],
+      "keywords": [
+        "equalizer",
+        "levels",
+        "bars",
+        "audio",
+        "spectrum",
+        "music",
+        "sound"
+      ],
+      "file": "equalizer.svg",
+      "added": "0.6.0"
     },
     {
       "name": "eraser",
@@ -12052,6 +12245,27 @@
       "added": "0.1.0"
     },
     {
+      "name": "heatmap",
+      "displayName": "Heatmap",
+      "category": "chart",
+      "tags": [],
+      "aliases": [
+        "heat-map",
+        "density-map"
+      ],
+      "keywords": [
+        "heat",
+        "density",
+        "intensity",
+        "grid",
+        "matrix",
+        "activity",
+        "data"
+      ],
+      "file": "heatmap.svg",
+      "added": "0.6.0"
+    },
+    {
       "name": "help-circle",
       "displayName": "Help",
       "category": "feedback",
@@ -12121,6 +12335,26 @@
       "added": "0.2.0"
     },
     {
+      "name": "histogram",
+      "displayName": "Histogram",
+      "category": "chart",
+      "tags": [],
+      "aliases": [
+        "frequency-chart",
+        "distribution-chart"
+      ],
+      "keywords": [
+        "bars",
+        "frequency",
+        "bins",
+        "statistics",
+        "distribution",
+        "data"
+      ],
+      "file": "histogram.svg",
+      "added": "0.6.0"
+    },
+    {
       "name": "history-1",
       "displayName": "History 1",
       "category": "time",
@@ -12157,6 +12391,65 @@
       ],
       "file": "history-2.svg",
       "added": "0.1.0"
+    },
+    {
+      "name": "hollow-bar-chart",
+      "displayName": "Hollow Bar Chart",
+      "category": "chart",
+      "tags": [],
+      "aliases": [
+        "outline-bar-chart",
+        "bar-outline"
+      ],
+      "keywords": [
+        "hollow",
+        "outline",
+        "bars",
+        "columns",
+        "data"
+      ],
+      "file": "hollow-bar-chart.svg",
+      "added": "0.6.0"
+    },
+    {
+      "name": "hollow-bar-chart-down",
+      "displayName": "Hollow Bar Chart Down",
+      "category": "chart",
+      "tags": [],
+      "aliases": [
+        "bar-chart-outline-down",
+        "decline-bars"
+      ],
+      "keywords": [
+        "hollow",
+        "outline",
+        "bars",
+        "decline",
+        "decrease",
+        "down"
+      ],
+      "file": "hollow-bar-chart-down.svg",
+      "added": "0.6.0"
+    },
+    {
+      "name": "hollow-bar-chart-up",
+      "displayName": "Hollow Bar Chart Up",
+      "category": "chart",
+      "tags": [],
+      "aliases": [
+        "bar-chart-outline-up",
+        "growth-bars"
+      ],
+      "keywords": [
+        "hollow",
+        "outline",
+        "bars",
+        "growth",
+        "increase",
+        "up"
+      ],
+      "file": "hollow-bar-chart-up.svg",
+      "added": "0.6.0"
     },
     {
       "name": "home",
@@ -12900,6 +13193,28 @@
       ],
       "file": "log-out.svg",
       "added": "0.1.0"
+    },
+    {
+      "name": "lyrics",
+      "displayName": "Lyrics",
+      "category": "media",
+      "tags": [],
+      "aliases": [
+        "song-lyrics",
+        "karaoke",
+        "lyric-sheet"
+      ],
+      "keywords": [
+        "lyrics",
+        "words",
+        "text",
+        "song",
+        "karaoke",
+        "speech",
+        "music"
+      ],
+      "file": "lyrics.svg",
+      "added": "0.6.0"
     },
     {
       "name": "magnet",
@@ -14050,7 +14365,6 @@
       "category": "media",
       "tags": [],
       "aliases": [
-        "song",
         "audio",
         "note"
       ],
@@ -14065,6 +14379,27 @@
       ],
       "file": "music.svg",
       "added": "0.2.0"
+    },
+    {
+      "name": "music-note",
+      "displayName": "Music Note",
+      "category": "media",
+      "tags": [],
+      "aliases": [
+        "quaver",
+        "eighth-note",
+        "single-note"
+      ],
+      "keywords": [
+        "music",
+        "note",
+        "audio",
+        "sound",
+        "melody",
+        "tune"
+      ],
+      "file": "music-note.svg",
+      "added": "0.6.0"
     },
     {
       "name": "navigation",
@@ -14086,6 +14421,27 @@
       ],
       "file": "navigation.svg",
       "added": "0.1.0"
+    },
+    {
+      "name": "network-chart",
+      "displayName": "Network Chart",
+      "category": "chart",
+      "tags": [],
+      "aliases": [
+        "network-graph",
+        "node-graph",
+        "graph-network"
+      ],
+      "keywords": [
+        "nodes",
+        "links",
+        "connections",
+        "relationships",
+        "graph",
+        "network"
+      ],
+      "file": "network-chart.svg",
+      "added": "0.6.0"
     },
     {
       "name": "node-select",
@@ -14660,6 +15016,27 @@
       "added": "0.1.0"
     },
     {
+      "name": "play-next",
+      "displayName": "Play Next",
+      "category": "media",
+      "tags": [],
+      "aliases": [
+        "up-next",
+        "next-in-queue",
+        "queue-next"
+      ],
+      "keywords": [
+        "play",
+        "next",
+        "queue",
+        "up-next",
+        "list",
+        "music"
+      ],
+      "file": "play-next.svg",
+      "added": "0.6.0"
+    },
+    {
       "name": "play-squircle",
       "displayName": "Play Squircle",
       "category": "media",
@@ -14678,6 +15055,49 @@
       ],
       "file": "play-squircle.svg",
       "added": "0.1.0"
+    },
+    {
+      "name": "playlist",
+      "displayName": "Playlist",
+      "category": "media",
+      "tags": [],
+      "aliases": [
+        "queue-list",
+        "track-list",
+        "music-list"
+      ],
+      "keywords": [
+        "playlist",
+        "list",
+        "tracks",
+        "songs",
+        "queue",
+        "music"
+      ],
+      "file": "playlist.svg",
+      "added": "0.6.0"
+    },
+    {
+      "name": "playlist-plus",
+      "displayName": "Playlist Plus",
+      "category": "media",
+      "tags": [],
+      "aliases": [
+        "add-to-playlist",
+        "create-playlist",
+        "add-to-queue"
+      ],
+      "keywords": [
+        "playlist",
+        "add",
+        "plus",
+        "new",
+        "create",
+        "queue",
+        "music"
+      ],
+      "file": "playlist-plus.svg",
+      "added": "0.6.0"
     },
     {
       "name": "plus",
@@ -14740,6 +15160,28 @@
       ],
       "file": "plus-squircle.svg",
       "added": "0.1.0"
+    },
+    {
+      "name": "podcast",
+      "displayName": "Podcast",
+      "category": "media",
+      "tags": [],
+      "aliases": [
+        "podcasts",
+        "broadcast-mic",
+        "podcast-show"
+      ],
+      "keywords": [
+        "podcast",
+        "broadcast",
+        "mic",
+        "audio",
+        "show",
+        "waves",
+        "episode"
+      ],
+      "file": "podcast.svg",
+      "added": "0.6.0"
     },
     {
       "name": "power",
@@ -14893,6 +15335,50 @@
       ],
       "file": "quill-squiggle.svg",
       "added": "0.2.0"
+    },
+    {
+      "name": "radar-chart",
+      "displayName": "Radar Chart",
+      "category": "chart",
+      "tags": [],
+      "aliases": [
+        "spider-chart",
+        "web-chart",
+        "star-chart"
+      ],
+      "keywords": [
+        "radar",
+        "spider",
+        "web",
+        "compare",
+        "skills",
+        "metrics",
+        "data"
+      ],
+      "file": "radar-chart.svg",
+      "added": "0.6.0"
+    },
+    {
+      "name": "radio",
+      "displayName": "Radio",
+      "category": "media",
+      "tags": [],
+      "aliases": [
+        "radio-set",
+        "fm-radio",
+        "boombox"
+      ],
+      "keywords": [
+        "radio",
+        "fm",
+        "am",
+        "antenna",
+        "broadcast",
+        "tuner",
+        "audio"
+      ],
+      "file": "radio.svg",
+      "added": "0.6.0"
     },
     {
       "name": "receipt",
@@ -15354,6 +15840,70 @@
       "added": "0.1.0"
     },
     {
+      "name": "repeat",
+      "displayName": "Repeat",
+      "category": "media",
+      "tags": [],
+      "aliases": [
+        "loop",
+        "repeat-all",
+        "loop-playlist"
+      ],
+      "keywords": [
+        "repeat",
+        "loop",
+        "cycle",
+        "arrows",
+        "playlist",
+        "music"
+      ],
+      "file": "repeat.svg",
+      "added": "0.6.0"
+    },
+    {
+      "name": "repeat-one",
+      "displayName": "Repeat One",
+      "category": "media",
+      "tags": [],
+      "aliases": [
+        "loop-one",
+        "repeat-track",
+        "loop-track"
+      ],
+      "keywords": [
+        "repeat",
+        "loop",
+        "one",
+        "single",
+        "track",
+        "music"
+      ],
+      "file": "repeat-one.svg",
+      "added": "0.6.0"
+    },
+    {
+      "name": "replay",
+      "displayName": "Replay",
+      "category": "media",
+      "tags": [],
+      "aliases": [
+        "restart",
+        "restart-track",
+        "play-again"
+      ],
+      "keywords": [
+        "replay",
+        "restart",
+        "again",
+        "rewind",
+        "play",
+        "arrow",
+        "circle"
+      ],
+      "file": "replay.svg",
+      "added": "0.6.0"
+    },
+    {
       "name": "reviews",
       "displayName": "Reviews",
       "category": "dev",
@@ -15588,6 +16138,26 @@
       "added": "0.2.0"
     },
     {
+      "name": "sankey-chart",
+      "displayName": "Sankey Chart",
+      "category": "chart",
+      "tags": [],
+      "aliases": [
+        "sankey-diagram",
+        "flow-diagram"
+      ],
+      "keywords": [
+        "flow",
+        "sankey",
+        "paths",
+        "transfer",
+        "funnel",
+        "data"
+      ],
+      "file": "sankey-chart.svg",
+      "added": "0.6.0"
+    },
+    {
       "name": "saturation",
       "displayName": "Saturation",
       "category": "effects",
@@ -15792,6 +16362,26 @@
       ],
       "file": "scan-text.svg",
       "added": "0.1.0"
+    },
+    {
+      "name": "scatter-chart",
+      "displayName": "Scatter Chart",
+      "category": "chart",
+      "tags": [],
+      "aliases": [
+        "scatter-plot",
+        "dot-plot"
+      ],
+      "keywords": [
+        "scatter",
+        "dots",
+        "points",
+        "correlation",
+        "plot",
+        "data"
+      ],
+      "file": "scatter-chart.svg",
+      "added": "0.6.0"
     },
     {
       "name": "scissors",
@@ -16968,6 +17558,28 @@
       "added": "0.1.0"
     },
     {
+      "name": "shuffle",
+      "displayName": "Shuffle",
+      "category": "media",
+      "tags": [],
+      "aliases": [
+        "random",
+        "shuffle-play",
+        "randomize"
+      ],
+      "keywords": [
+        "shuffle",
+        "random",
+        "mix",
+        "crossing",
+        "arrows",
+        "playlist",
+        "music"
+      ],
+      "file": "shuffle.svg",
+      "added": "0.6.0"
+    },
+    {
       "name": "side-menu-left",
       "displayName": "Side Menu Left",
       "category": "layout",
@@ -17171,8 +17783,7 @@
       ],
       "aliases": [
         "sliders-horizontal",
-        "adjustments-horizontal",
-        "equalizer"
+        "adjustments-horizontal"
       ],
       "keywords": [
         "adjustments",
@@ -17291,6 +17902,27 @@
       "added": "0.1.0"
     },
     {
+      "name": "song",
+      "displayName": "Song",
+      "category": "media",
+      "tags": [],
+      "aliases": [
+        "track",
+        "tune",
+        "music-track"
+      ],
+      "keywords": [
+        "song",
+        "track",
+        "music",
+        "audio",
+        "single",
+        "tune"
+      ],
+      "file": "song.svg",
+      "added": "0.6.0"
+    },
+    {
       "name": "sort-ascending",
       "displayName": "Sort Ascending",
       "category": "action",
@@ -17328,6 +17960,28 @@
       ],
       "file": "sort-descending.svg",
       "added": "0.1.0"
+    },
+    {
+      "name": "sound-wave",
+      "displayName": "Sound Wave",
+      "category": "media",
+      "tags": [],
+      "aliases": [
+        "waveform",
+        "audio-wave",
+        "soundwave"
+      ],
+      "keywords": [
+        "sound",
+        "wave",
+        "audio",
+        "waveform",
+        "voice",
+        "bars",
+        "recording"
+      ],
+      "file": "sound-wave.svg",
+      "added": "0.6.0"
     },
     {
       "name": "spacing-horizontal",
@@ -17392,6 +18046,49 @@
       ],
       "file": "sparkle-large.svg",
       "added": "0.4.0"
+    },
+    {
+      "name": "sparkline",
+      "displayName": "Sparkline",
+      "category": "chart",
+      "tags": [],
+      "aliases": [
+        "mini-chart",
+        "inline-chart"
+      ],
+      "keywords": [
+        "trend",
+        "small",
+        "inline",
+        "line",
+        "spark",
+        "data",
+        "metric"
+      ],
+      "file": "sparkline.svg",
+      "added": "0.6.0"
+    },
+    {
+      "name": "speaker",
+      "displayName": "Speaker",
+      "category": "media",
+      "tags": [],
+      "aliases": [
+        "loudspeaker",
+        "speaker-box",
+        "hifi-speaker"
+      ],
+      "keywords": [
+        "speaker",
+        "loudspeaker",
+        "audio",
+        "sound",
+        "woofer",
+        "hifi",
+        "music"
+      ],
+      "file": "speaker.svg",
+      "added": "0.6.0"
     },
     {
       "name": "square",
@@ -17487,6 +18184,26 @@
       ],
       "file": "stack-up.svg",
       "added": "0.1.0"
+    },
+    {
+      "name": "stacked-bar-chart",
+      "displayName": "Stacked Bar Chart",
+      "category": "chart",
+      "tags": [],
+      "aliases": [
+        "stacked-columns",
+        "segmented-bar-chart"
+      ],
+      "keywords": [
+        "stacked",
+        "bars",
+        "segments",
+        "compare",
+        "parts",
+        "data"
+      ],
+      "file": "stacked-bar-chart.svg",
+      "added": "0.6.0"
     },
     {
       "name": "star",
@@ -18476,6 +19193,26 @@
       "added": "0.2.0"
     },
     {
+      "name": "treemap",
+      "displayName": "Treemap",
+      "category": "chart",
+      "tags": [],
+      "aliases": [
+        "tree-map",
+        "hierarchy-chart"
+      ],
+      "keywords": [
+        "hierarchy",
+        "rectangles",
+        "proportions",
+        "nested",
+        "share",
+        "data"
+      ],
+      "file": "treemap.svg",
+      "added": "0.6.0"
+    },
+    {
       "name": "trending-down",
       "displayName": "Trending Down",
       "category": "chart",
@@ -18663,6 +19400,28 @@
       ],
       "file": "truck-x.svg",
       "added": "0.1.0"
+    },
+    {
+      "name": "turntable",
+      "displayName": "Turntable",
+      "category": "media",
+      "tags": [],
+      "aliases": [
+        "record-player",
+        "vinyl-player",
+        "vinyl"
+      ],
+      "keywords": [
+        "turntable",
+        "vinyl",
+        "record",
+        "dj",
+        "deck",
+        "player",
+        "music"
+      ],
+      "file": "turntable.svg",
+      "added": "0.6.0"
     },
     {
       "name": "type",
@@ -19548,8 +20307,7 @@
       "tags": [],
       "aliases": [
         "sound",
-        "audio-level",
-        "speaker"
+        "audio-level"
       ],
       "keywords": [
         "volume",
