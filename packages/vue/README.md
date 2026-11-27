@@ -2,7 +2,9 @@
 
 Moji icons as Vue 3 components. One cohesive outline style, tree-shakeable, accessible.
 
-> Not published yet. The package name and the icon names are locked after v0.6.0.
+```sh
+npm install @mojilibrary/vue
+```
 
 ```vue
 <script setup>
