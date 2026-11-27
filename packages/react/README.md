@@ -2,7 +2,9 @@
 
 Moji icons as React components. One cohesive outline style, tree-shakeable, accessible.
 
-> Not published yet. The package name and the icon names are locked after v0.6.0.
+```sh
+npm install @mojilibrary/react
+```
 
 ```jsx
 import { ArrowUp } from '@mojilibrary/react';
